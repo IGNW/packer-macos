@@ -76,7 +76,7 @@
         ["modifyvm", "{{.Name}}", "--hpet", "on"],
         ["modifyvm", "{{.Name}}", "--keyboard", "usb"],
         ["modifyvm", "{{.Name}}", "--memory", "4096"],
-        ["modifyvm", "{{.Name}}", "--cpus", "2"]
+        ["modifyvm", "{{.Name}}", "--cpus", "2"],
         ["modifyvm", "{{.Name}}", "--mouse", "usbtablet"],
         ["modifyvm", "{{.Name}}", "--usbehci", "on"],
         ["modifyvm", "{{.Name}}", "--vram", "128"],
