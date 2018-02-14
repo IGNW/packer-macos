@@ -110,7 +110,8 @@
         "scripts/add-network-interface-detection.sh",
         "scripts/autologin.sh",
         "scripts/system-update.sh",
-        "scripts/shrink.sh"
+        "scripts/shrink.sh",
+        "{{user `user_defined_script`}}"
       ],
       "environment_vars": [
         "AUTOLOGIN={{user `autologin`}}",
@@ -142,6 +143,7 @@
     "puppet_version": "none",
     "puppet_agent_version": "none",
     "update_system": "true",
-    "username": "vagrant"
+    "username": "vagrant",
+    "user_defined_script": "scripts/user-defined.sh"
   }
 }
